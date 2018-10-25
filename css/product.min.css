@@ -1,0 +1,14 @@
+
+/* navbar css */
+
+navbar {
+    float: right;
+}
+
+a.navbar-brand {
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+    margin: auto;
+}
