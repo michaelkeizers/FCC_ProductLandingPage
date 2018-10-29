@@ -51,3 +51,8 @@ body, html {
     padding: 10px;  
   }
 
+  .carousel-inner > .carousel-item {
+    height: 100vh;
+ }
+  
+
