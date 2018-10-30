@@ -1,13 +1,13 @@
 
-body, html {
-    width: 100%;
-    height: 100%;
+
+body {
+    background-color: #f8f9fa;
 }
 
+/******HEADER******/
+#header {}
 
-
-/*NAVBAR*/
-
+/******NAVBAR******/
 .navbar-brand {
     margin-left: 40px;
 }
@@ -15,101 +15,64 @@ body, html {
     margin-left: auto;
 }
 
-/*BANNER*/
+/*****TEXT-BLOCK******/
 
-  #banner-img {
-    width: 100% !important;
-    height: auto;
-}
-
-/*CONTENT*/
-
-.introRow {
-    /*width: 100%;*/
-    height: 500px;
-    background-color: rgb(248, 249, 250);
-    padding: 10%;
-}
-
-.infoRow {
-    width: 100%;
-    min-height: 500px;
-    background-color: blue;
-    padding: 8%;
-    padding-top: 8%;
-    padding-right: 8%;
-    padding-bottom: 8%;
-    padding-left: 8%;
-}
-
-#content-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 310px;
-    height: 215px;
-    border-radius: 10px;
-    padding: 10px;  
-  }
-
-  
-
- .text-block {
-    height: 300px;
-    width: 400px;
+.text-block {
+    height: 30vh;
+    width: 75vw;
+    bottom: 40px;
+    right: 10px;
     position: absolute;
-    top: 300px;
-    right: 450px;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px;
 }
 
-/*.container {
-    position: relative;
-}*/
 
-.carousel-inner,.carousel,.item,.container,.fill {
-    height:100%;
-    width:100%;
-    background-position:center center;
-  }
+/******CAROUSEL******/
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+  .carousel-item {
 
-// Small devices (landscape phones, 576px and up)
-@media only screen and (max-width: 375px) {
-    .carousel-inner,.carousel,.item,.container,.fill {
-    height:100%;
-    width:100%;
-    background-position:center center;
-  }
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-image: none;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-// Medium devices (tablets, 768px and up)
-@media only screen and (min-width: 768px) {
-    .carousel-inner,.carousel,.item,.container,.fill {
-        height:100%;
-        width:100%;
-        background-position:center center;
-      }
+/******CONTENT******/
+
+/*infoRow*/
+.row {
+    padding: 10%;
+    justify-content: center;
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .carousel-inner > .carousel-item {
-        height: 100vh;
-    }
+/******FONT******/
+
+.p-text-block {
+    margin-top: -15px;
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    .carousel-inner > .carousel-item {
-        height: 100vh
-    }
-}*/
-  
+.em-1 {
+    font-size: 13px;
+    float: right;  
+}
+
+.h-info {
+    color: #4C7BA0;
+}
+
+
+
+
+
+
+
+
+
 
