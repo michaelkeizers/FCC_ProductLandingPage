@@ -1,11 +1,11 @@
-
-
 body {
     background-color: #f8f9fa;
 }
 
 /******HEADER******/
-#header {}
+header {
+
+}
 
 /******NAVBAR******/
 .navbar-brand {
@@ -33,7 +33,7 @@ body {
 
   .carousel-item {
 
-    height: 100vh;
+    height: 95vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     background-image: none;
@@ -45,6 +45,11 @@ body {
 }
 
 /******CONTENT******/
+/*embed video*/
+iframe {
+    max-width: 560px;
+    width: 100%;
+  }
 
 /*infoRow*/
 .row {
@@ -60,13 +65,42 @@ body {
 
 .em-1 {
     font-size: 13px;
-    float: right;  
+    margin: auto;
 }
 
 .h-info {
     color: #4C7BA0;
 }
 
+
+@media (min-width: 800px) {
+    .text-block {
+      width: 25vw;
+      height: 30vh;
+      padding: 30px;
+      margin-right: 300px;
+      margin-bottom: 300px;
+    }
+    .carousel-item {
+
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        background-image: none;
+        background-size: auto auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .text-block {
+    width: 75vw;
+    height: 30vh;
+    }
+}
 
 
 
