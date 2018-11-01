@@ -1,18 +1,22 @@
 body {
     background-color: #f8f9fa;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 
 /******HEADER******/
 
+/*header {
+    position: fixed;
+    top: 0;
+  }*/
+
 #header-img {
     width: auto;
-    height: 2.5rem;
+    height: 2.5rem !important; 
     margin-left: 40px;
 }
 
 /******NAVBAR******/
-.navbar-brand {
-}
 .navbar-nav {
     margin-left: auto;
 }
@@ -28,7 +32,7 @@ body {
     padding: 10px;
 }
 
-.tb-link {
+.text-block a {
     color: white;
 }
 
@@ -121,6 +125,8 @@ input[type="email"] {
 .h-info {
     color: #4C7BA0;
 }
+
+
 
 
 @media (min-width: 800px) {
