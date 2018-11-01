@@ -8,6 +8,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
     <link href="css/product.css" rel="stylesheet">
     
@@ -16,12 +19,12 @@
   <body>
 <!------ HEADER ------>
     <header id="header">
-            <div class="logo">
-                    <img id="header-img" src="" alt="headerlogo"/>
-                  </div>            
+            <!--<div class="logo">
+                    <img id="header-img" src="img/banner.jpg" alt="headerlogo"/>
+                  </div>-->            
         <div>            
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-bar">
-                    <img id="header-img" src=""/>
+                    <img id="header-img" src="img/logo.svg"/>
                     <a class="navbar-brand" href="#home">The Climbing WALL</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -29,9 +32,9 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#info">About</a>
-                        <a class="nav-item nav-link" href="#pricing-vhours">Pricing</a>
-                        <a class="nav-item nav-link" href="#pricing-vhours">Visiting Hours</a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#pricing-openinghours">Pricing</a>
+                        <a class="nav-item nav-link" href="#pricing-openinghours">Opening Hours</a>
                         <a class="nav-item nav-link" href="#contact">Contact</a>
                       </div>
                     </div>
@@ -61,7 +64,7 @@
                     <h1>Experience</h1>
                     <hr class="my-4">
                     <p class="p-text-block">the adventerous feeling of outdoor climbing at The Climbing Wall</p>
-                    <p><a><em class="em-1">discover more</em></a></p>                    
+                    <p><a class="tb-link" href="#about"><em class="em-1">discover more</em></a></p>                    
                 </div>
           </div>
 
@@ -76,7 +79,7 @@
                     <h2>Great Community</h2>
                     <hr class="my-4">
                     <p class="p-text-block">From beginners to experienced climbers. A fun and safe environment, where you can "hangout".</p>
-                    <p><a><em class="em-1">discover more</em></a></p>                    
+                    <p><a class="tb-link" href="#about"><em class="em-1">discover more</em></a></p>                    
                 </div>
           </div>
 
@@ -87,7 +90,7 @@
                     <h2>Kids Corner</h2>
                     <hr class="my-4">
                     <p class="p-text-block">Kids are great climbers and at The Climbing Wall we have our own kids corner</p>
-                    <p><a><em class="em-1">discover more</em></a></p>                    
+                    <p><a class="tb-link" href="#about"><em class="em-1">discover more</em></a></p>                    
                 </div>
           </div>
         </div>
@@ -107,8 +110,9 @@
     
 
 <!------ INFO THE CLIMBING WALL ------>
-    <div class="container-fluid contentRow">
-    <section id="info">
+    <section id="about">
+    <div class="container-fluid">
+    
         <div class="row">
             <div class="col-12 col-sm-8 col-md-8 col-lg-4">
                 <h2 class="h-info">The Climbing Wall</h1>
@@ -120,13 +124,16 @@
                     <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/9tmxOw5RyBM" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-    </section>        
+            
     </div>
+    </section>
 
-    <div class="container-fluid contentRow">
-    <section id="pricing-vhours">
+    <section id="pricing-openinghours">
+    <div class="container-fluid">
+    
         <div class="row">
             <div class="col-12 col-sm-8 col-md-8 col-lg-4">
+
                 <h3>Pricing</h3><br>
                 <table class="table table-borderless table-dark">
                     <tr><td>Introduction class adults</td><td>$ 24,50</td></tr>
@@ -137,8 +144,9 @@
                     <tr><td>Day pass kids</td><td>$ 10,00</td></tr>
                 </table>
             </div>
+
             <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-                <h3>Visiting Hours</h3><br>
+                <h3>Opening Hours</h3><br>
                     <table class="table table-borderless table-dark">    
                         <tr><td>Monday</td><td>13.00 - 22.30</td></tr>
                         <tr><td>Thuesday</td><td>13.00 - 22.30</td></tr>
@@ -150,11 +158,13 @@
                     </table>
             </div>
         </div>
-    </section>        
+            
     </div>
+    </section>
 
-    <div class="container-fluid contentRow">
     <section id="contact">
+    <div class="container-fluid">
+    
         <div class="row">
             <div class="col-12 col-sm-8 col-md-8 col-lg-4">
                 <h2 class="h-info">Contact</h2>
@@ -170,8 +180,22 @@
               </form>
             </div>
         </div>
-    </section>        
+            
     </div>
+    </section>
+
+
+    <footer>
+            <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/michael-honer-74748ab1/">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/michaelhoner">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    Copyright 2018, Michael Honer
+                  </div>
+        </footer>
 
     
     

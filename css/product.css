@@ -3,13 +3,15 @@ body {
 }
 
 /******HEADER******/
-header {
 
+#header-img {
+    width: auto;
+    height: 2.5rem;
+    margin-left: 40px;
 }
 
 /******NAVBAR******/
 .navbar-brand {
-    margin-left: 40px;
 }
 .navbar-nav {
     margin-left: auto;
@@ -26,6 +28,10 @@ header {
     padding: 10px;
 }
 
+.tb-link {
+    color: white;
+}
+
 
 /******CAROUSEL******/
 
@@ -36,10 +42,10 @@ header {
     background: no-repeat center center scroll;
     background-image: none;
     background-size: auto auto;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -o-background-size: cover;    
 }
 
 /******CONTENT******/
@@ -55,14 +61,21 @@ iframe {
     justify-content: center;
 }
 
-#pricing-vhours {
+#pricing-openinghours {
     color: white;
     background-color: #4C7BA0;
 }
+.table-dark {
+    background-color: rgba(0,0,0,0.5);
+}
 
 .contentRow {
-    padding: 0px;
 }
+
+.container-fluid {
+}
+
+
 
 
 input[type="email"] {
@@ -79,6 +92,20 @@ input[type="email"] {
     color: white;    
     background-color: #4C7BA0;
     border: 1px;
+  }
+
+  footer {
+    color: rgba(0,0,0,.5);
+    background-color: #4C7BA0;
+    padding: 10px;
+    text-align: right;  
+  }
+
+  .social-icons a {
+    display: inline-block;    
+    color: #ffffff !important;
+    font-size: 1.5rem;
+    margin-right: 1rem;
   }
 
 /******FONT******/
