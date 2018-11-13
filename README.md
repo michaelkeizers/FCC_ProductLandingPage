@@ -1,4 +1,3 @@
-# FCC_ProductLandingPage
 # <h1><a href="https://michaelhoner.github.io/FCC_ProductLandingPage/">FCC_ProductLandingPage</a></h1>
 
 <p>Responsive Web Design Projects - Build a Product Landing Page, part of <a href="https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page">Free Code Camp</a> project work.</p>
