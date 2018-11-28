@@ -7,6 +7,11 @@ body, html {
 
 /*NAVBAR*/
 
+.navbar {
+    position: fixed;
+    top: 0;
+  }
+
 .navbar-brand {
     margin-left: 40px;
 }
